@@ -5,8 +5,8 @@ public class GuiEventReceiver extends GuiEventSender {
 	private var context:RectTransform;
 	private var cam:Camera;
 	private var canvas:Canvas;
-	private var position0: int = -71; //Position eingefahrener Menüs
-	private var position1: int = 150; //Position ausgefahrener Menüs
+	private var position0: int = -83; //Position eingefahrener Menüs
+	private var position1: int = 190; //Position ausgefahrener Menüs
 	private var clickCount: int = 0; //Zählt mit, ob ein Element das erste oder zweite Mal geklickt wurde
 	private var schublade = new Array();
 	
